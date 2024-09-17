@@ -1,0 +1,191 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do corpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background: #F4E7D3;
+    line-height: 1.6;
+    text-align: center; /* Centraliza o texto do corpo */
+}
+
+/* Cabeçalho */
+header {
+    background: #594126; /* Cor verde definida */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Área principal */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto; /* Centraliza o main na página */
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    border-radius: 100px;
+    position: absolute;
+    bottom: auto;
+    /* Ajuste conforme necessário */
+    left: 10px;
+    /* Ajuste conforme necessário */
+    max-width: 90px;
+    /* Ajuste o tamanho da logo conforme necessário */
+}
+
+/* Seção de vídeos */
+#video-index {
+    padding: 20px;
+    background-color: #594126;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#video-index h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    /* Centraliza o título */
+}
+
+/* Estilo dos links no card */
+.card {
+    background-color: #F4E7D3;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card ul li {
+    margin: 10px 0;
+}
+
+.card ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.card ul li a:hover {
+    color: #0056b3;
+}
+
+/* Estilos dos vídeos */
+.media-item {
+    filter: drop-shadow(0 0 1rem rgb(59, 37, 70));
+    box-shadow: 1px 1px 1rem rgb(47, 4, 66);
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.media-item h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #444;
+}
+
+/* Tornando os iframes responsivos */
+.media-item iframe {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* Formulário de cadastro */
+form {
+    max-width: 400px;
+    margin: 30px auto;
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgb(49, 19, 63); /* Cor verde definida */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: rgb(00, 00, 00); /* Cor verde definida */
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #265859; /* Cor mais clara ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    background: #594126;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 0.9rem;
+}
